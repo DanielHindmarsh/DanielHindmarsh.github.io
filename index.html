@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Love Match</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Digital Love Match!</h1>
+    <p>Let us help you find your perfect Valentine...</p>
+  </header>
+  <main>
+    <section id="love-quiz">
+      <p>Answer a few questions about yourself:</p>
+      <form id="valentine-options">
+        <form id="star-sign-options">
+            <label>
+              <input type="radio" name="star-sign" value="Aries">
+              Aries
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Taurus">
+              Taurus
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Gemini">
+              Gemini
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Cancer">
+              Cancer
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Leo">
+              Leo
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Virgo">
+              Virgo
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Libra">
+              Libra
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Scorpio">
+              Scorpio
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Sagittarius">
+              Sagittarius
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Capricorn">
+              Capricorn
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Aquarius">
+              Aquarius
+            </label>
+            <label>
+              <input type="radio" name="star-sign" value="Pisces">
+              Pisces
+            </label>
+          </form>
+        <br>
+        <p>What is your favorite color?</p>
+        <form id="favorite-color-options">
+            <label>
+              <input type="radio" name="favorite-color" value="Red">
+              Red
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Blue">
+              Blue
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Green">
+              Green
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Yellow">
+              Yellow
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Orange">
+              Orange
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Purple">
+              Purple
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Pink">
+              Pink
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Black">
+              Black
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="White">
+              White
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Gray">
+              Gray
+            </label>
+          </form>
+        <br>
+        <p>What is your dream pet?</p>
+        <form id="favorite-animal-options">
+            <label>
+              <input type="radio" name="favorite-animal" value="Dog">
+              Dog
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Cat">
+              Cat
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Bird">
+              Bird
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Rabbit">
+              Rabbit
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Elephant">
+              Elephant
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Dolphin">
+              Dolphin
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Tiger">
+              Tiger
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Penguin">
+              Penguin
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Horse">
+              Horse
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Lion">
+              Lion
+            </label>
+          </form>
+        <br>
+        <p>What is your favorite drink?</p>
+        <form id="preferred-drink-options">
+            <label>
+              <input type="radio" name="preferred-drink" value="Coffee">
+              Coffee
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Tea">
+              Tea
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Water">
+              Water
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Soda">
+              Soda
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Juice">
+              Juice
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Beer">
+              Beer
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Wine">
+              Wine
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Cocktail">
+              Cocktail
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Smoothie">
+              Smoothie
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Milkshake">
+              Milkshake
+            </label>
+          </form>
+        <br>
+        <p>What is your dream vacation destination?</p>
+        <form id="dream-destination-form">
+            <input type="text" id="dream-destination-input" placeholder="Enter your dream destination...">
+          </form>
+        <br>
+        <p>Would you rather be up in the mornings or at night time?</p>
+        <label>
+            <form id="star-sign-options">
+                <label>
+                  <input type="radio" name="star-sign" value="Aries">
+                  Morning person
+                </label>
+                <form id="star-sign-options">
+                    <label>
+                      <input type="radio" name="star-sign" value="Aries">
+                      Night person
+                    </label>
+                    <form id="star-sign-options">
+                        <label>
+                          <input type="radio" name="star-sign" value="Aries">
+                          Party Animal (Both)
+                        </label>
+                        </form>
+                        <br>
+
+                  <p>What is your favorite color?</p>
+        <form id="favorite-color-options">
+            <label>
+              <input type="radio" name="favorite-color" value="Red">
+              Red
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Blue">
+              Blue
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Green">
+              Green
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Yellow">
+              Yellow
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Orange">
+              Orange
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Purple">
+              Purple
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Pink">
+              Pink
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Black">
+              Black
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="White">
+              White
+            </label>
+            <label>
+              <input type="radio" name="favorite-color" value="Gray">
+              Gray
+            </label>
+          </form>
+        <br>
+        <p>What is your dream pet?</p>
+        <form id="favorite-animal-options">
+            <label>
+              <input type="radio" name="favorite-animal" value="Dog">
+              Dog
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Cat">
+              Cat
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Bird">
+              Bird
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Rabbit">
+              Rabbit
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Elephant">
+              Elephant
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Dolphin">
+              Dolphin
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Tiger">
+              Tiger
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Penguin">
+              Penguin
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Horse">
+              Horse
+            </label>
+            <label>
+              <input type="radio" name="favorite-animal" value="Lion">
+              Lion
+            </label>
+          </form>
+        <br>
+        <p>What is your favorite drink?</p>
+        <form id="preferred-drink-options">
+            <label>
+              <input type="radio" name="preferred-drink" value="Coffee">
+              Coffee
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Tea">
+              Tea
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Water">
+              Water
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Soda">
+              Soda
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Juice">
+              Juice
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Beer">
+              Beer
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Wine">
+              Wine
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Cocktail">
+              Cocktail
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Smoothie">
+              Smoothie
+            </label>
+            <label>
+              <input type="radio" name="preferred-drink" value="Milkshake">
+              Milkshake
+            </label>
+          </form>
+        <br>
+        <!-- Add more options if desired -->
+        <br>
+        <p>What is your favorite movie genre?</p>
+        <form id="favorite-movie-genre-options">
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Action">
+              Action
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Comedy">
+              Comedy
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Drama">
+              Drama
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Romance">
+              Romance
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Horror">
+              Horror
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Science Fiction">
+              Science Fiction
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Fantasy">
+              Fantasy
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Romantic Comedy">
+              Romantic Comedy
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Documentary">
+              Documentary
+            </label>
+            <label>
+              <input type="radio" name="favorite-movie-genre" value="Thriller">
+              Thriller
+            </label>
+          </form>
+        <br>
+        <p>What is your favorite type of music?</p>
+        <form id="favorite-music-genre-options">
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Pop">
+              Pop
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Rock">
+              Rock
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Hip Hop">
+              Hip Hop
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Country">
+              Country
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Jazz">
+              Jazz
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Classical">
+              Classical
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Electronic">
+              Electronic
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Reggae">
+              Reggae
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="R&B">
+              R&B
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Indie">
+              Indie
+            </label>
+            <label>
+              <input type="radio" name="favorite-music-genre" value="Other">
+              Other
+            </label>
+          </form>
+          <p>Or enter your current favorite song:</p>
+          <input type="text" id="favorite-song-input" placeholder="Enter your favorite song...">
+        <br>
+        <br>
+        <br>
+        <p>Do you prefer sweet or savory foods?</p>
+        <form>
+
+        <label>
+          <input type="radio" name="sweet-savory" value="Sweet">
+          Sweet
+        </label>
+        <label>
+          <input type="radio" name="sweet-savory" value="Savory">
+          Savory
+        </label>
+        </form> 
+        <!-- Add more options if desired -->
+    
+        <br>        
+        <p>What is your favorite season?</p>
+        <form>
+        <label>
+          <input type="radio" name="favorite-season" value="Summer">
+          Summer
+        </label>
+        <label>
+          <input type="radio" name="favorite-season" value="Winter">
+          Winter
+        </label>
+        <label>
+            <input type="radio" name="favorite-season" value="Winter">
+            Autumn
+          </label>
+          <label>
+            <input type="radio" name="favorite-season" value="Winter">
+            Spring
+          </label>
+        <!-- Add more options if desired -->
+        </form>
+        <br>
+                <p>Why is it your favourite season?</p>
+          <input type="text" id="favorite-song-input" placeholder="Why is it your favourite season?">
+        <br>
+        <br>
+        <p>Do you prefer indoor or outdoor activities?</p>
+        <form><label>
+          <input type="radio" name="indoor-outdoor" value="Indoor">
+          Indoor
+        </label>
+        <label>
+          <input type="radio" name="indoor-outdoor" value="Outdoor">
+          Outdoor
+        </label>
+        <!-- Add more options if desired -->
+        <!-- Add more options if desired --></form>
+        <br>
+        <p>Are you more introverted or extroverted?</p>
+        <form> <label>
+          <input type="radio" name="intro-extro" value="Introverted">
+          Introverted
+        </label>
+        <label>
+          <input type="radio" name="intro-extro" value="Extroverted">
+          Extroverted
+        </label></form>
+        <!-- Add more options if desired -->
+        <!-- Add more options if desired -->
+        <br>
+        <p>Do you prefer beach or mountains for a getaway?</p>
+        <form><label>
+          <input type="radio" name="beach-mountains" value="Beach">
+          Beach
+        </label>
+        <label>
+          <input type="radio" name="beach-mountains" value="Mountains">
+          Mountains
+        </label>
+        </form>
+        <!-- Add more options if desired -->
+        <!-- Add more options if desired -->
+        <br>
+        <p>Tell me about your favorite childhood memory?</p>
+        <input type="text" id="favorite-song-input" placeholder="Favorite childhood memory">
+        <!-- Add more options if desired -->
+        <br>
+        <br>
+        <br>
+        <p>Click 'Yes' if you understand that this system is perfect, and you may not unlearn the results once they have been revealed</p>
+        <label>
+          <input type="radio" name="superpower" value="Flight">
+          Yes
+        </label>
+
+        <!-- Add more options if desired -->
+        <br>
+        <br>
+      </form>
+      <button onclick="showValentineMatch()">Find My Perfect Valentine</button>
+      <p id="valentine-match"></p>
+    </section>
+  </main>
+
+  <script>
+    function showValentineMatch() {
+      var matchElement = document.getElementById("valentine-match");
+      matchElement.textContent = "Congratulations! Your perfect Valentine is...";
+      setTimeout(function() {
+        matchElement.textContent = "INTERNAL ERROR.";
+        setTimeout(function() {
+          matchElement.textContent = "SERVER CONNECTION LOST.";
+          setTimeout(function() {
+            matchElement.textContent = "Ȩ̴͓̲͚͈̲̱̩͎̰̥͈̌̈́͂̎̔̾̈́͐̅̕͝Ȑ̴̡͓̞͙̦̤̬͇͇͇̞̳̪̈́͊̈́̏͐̈́͐͊̈́͊̿̂̕͝R̸̘͖͔̣̆͊̊͆̽͑͜ͅǪ̷͍̲̻͎̝̻̭͐͛̽̀͑̌R̶̡̦̩̦̗̤͍̒̓́͒͜͜";
+            setTimeout(function() {
+              matchElement.textContent = "Ą̶̨̨͇̭̼̖̺̟̜͚͉͔͕̻͍͇̗̟̙̘͖̱͋́́̈́̇̒̿̅̂̇̈̽͐̈́̍̅̂͂̐̉̋̆̋ͅL̸̨̧̧̡̫̲͔̪͍͎̗͎̬̠̮̼̄̅̇͑̓̓̓Ờ̸̡̢̡̧̙͈̞̲̮̱̞͚̙̮͙͕̙̝͉̟͉̼̪͍͕̝̩̟̻̝̱͂͆͊̐̏̈́͋̇̔̾̚͘͜͝G̸̨̛̹͚͉̯̋͂̔͊́̿̊̈́́́͗͆̇̚Ŕ̶̡̧̨͈̩̞͍̲̜̫̝̖͈̦̯̬̖͚̱̭̫̭̤̼̟͚̱͙̜̠͍̼̯̂͂͑͗́̀̒̈̾̾̾̂̓̃̄̔͊͆́̌́̑͆̈́̓͂̓̂̕̚͘̕̕̕͝͝ͅI̶̛͇͈̯̩̩̞̜̯̻̙̬̓̈̌̿̿͂̅̋̋͑̐̓̽͑̐̚̕̕͜͠͝Ţ̶̡͖̜̺̻̼͙͙͖̥̤͍͔͍͍̪̬͎̻͚̻͔͖̤̦͉̱͙̒͋́́̊̏̂̏͂͛̍͌̇̉̃͌́̓͆̋̔̔̌̊͂̅̄̚͘͜͝͝ͅͅḨ̵̨̡̧̼̞͖̙͍̹̜̤͔̗͉͙̘͍͙͓͇̫̬̙̲̤̫̙̠̰͔̪̗̬̖̩͙̘̰̭̗̙̦̹̞͗͌́̆̎̉̑͑̔̊̇̐͑̇͝͠͠ͅM̶̡̡̨̢̛͉̳̬̩͈͍̳͙̻̞̩͕͓͇̭̺̮͕̺̻̬̝̻͇̟͈̭̭̱̬̱̃̈́̂̓̌͋́͗́̂͐̀̐̈̏̒͂̏͐̆́̓̐̂̓͗̒̽̀͘͘͘͝ ̸͔̬̗̬̫̙͍͐̑̏́̈́̊̈̍́̈́̈̃̿͗̆́̄͘ͅC̷̛̦͕͍̘̯͖̺̱̪̗̼̹̔̋̓͛͗͑͊̉̒͌̂̑̽̒͆̔̃̑̀̿̆̾̿͒́͂͑̓͐̌̎̀̋̇̍̐̔̍̊̓̕͘͘͝͝͝͠͝Ớ̷̪̓̅̏̇̏͋̎̾̏͂̆͑̏̇̀͑͘̕͝͝M̶̧̧̨̨̧̨̡̛͈͚̝͈͔̞͈̖̖̜͔̠̤̥̯̙͈̳͙̭̜̙͔̻͇̬̜̪͓̜̙̘̊̌́̈́̏͐̄̃͒͛̄̀̄̏̌̔̈́̋̓̂͑̃͌̄͒͑̿̐͌̆̀̋̀̔̓̽̒̊̚͜͝͠͠͝P̸̛̭̥̥̣̯̆͊̎̋͑͐̊̆̓́̏̽̎̋̂̈̾͛̕̕͘͠͝Ŗ̶̧̨̢̨͚̙̱̼̩̫̤̯̮͍̼̹̜̭͊̾̓̈́̎̓́̐̒̃̓̓̑̋̿̈́̏̒̐̉͌̾̅͂́̚̚͘͜͝͝I̶̧̳͈̙͕̝̞̱̠̥͔͖̝͔͈̊͒́̀̃̔͛͆͑̿͑̎́̍͐̅͆͛͐̊̎̐̃̍͒̽̇̈́̋̐͒̇͆̒͋̔̅͝ͅM̶̡̛̛̺͕̭̯͚̬̰̠͔̪͚̲͚̠̰̜̩̦̘̹̻̩̫͕̙̖͎̙͔͉̮̰͈̼͒̇̅́̄͛͌̀̈͐́̍͊̀́̽̆͋͛̾̓͆͑̓̕͘̕͝Ǐ̵̡̨̹̠̺͙̻̫̙̟̮̹͕̝̯̹̤̘͓͍̙̰͈̰͈̹͇͈͕̠̼͍̫͎̼͇̠̳͉̲̙̰͕̌̇͌̓̄͒̒͑̽́͠S̵̡̧̧̥͚͈̰̠̫̫̠̻͈̝̝̬̩̩̲̘̖͑͌̆̊͗̀̍̍̈͛̈́̆͋͝Ę̷̨̛̛̻̱̬̱̪̫̞̝̰̗̤̞͒͗́̔̌͐̈́̓͌̋̑̀̆̏̅̍̿̏͘͝ͅḐ̷̨̧̧̛̥̭͓̬͚̫̹̹̙̗͈̗̼̣̬͍̰̘̯̤̩̣̼̙̣͈̩̝͈͓̰͍̩̯̘̜̪̮͍͔̳̳̼̫̝͊́̄̀͋̈́̋̑̐͊̈̎̏̌́̕͝ͅ";
+              setTimeout(function() {
+                matchElement.innerHTML = 'The system is running as usual and has not been compromised or hacked in any way. <a href="loveletter.html">Click here</a> to find your perfect valentine';
+              }, 2000); // 2-second delay for final message
+            }, 2000); // 2-second delay for "ERROR" message
+          }, 2000); // 2-second delay for "SYSTEM COMPROMISED" message
+        }, 2000); // 2-second delay for "INTERNAL ERROR" message
+      }, 2000); // 2-second delay for initial "Congratulations" message
+    }
+  </script>
+  
+  </script>
+</body>
+</html>
